@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCouto.API", "src\CarCouto.API\CarCouto.API.csproj", "{A7318526-BA0C-43AA-942F-4274EED3F64F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCouto.API", "src\CarCouto.API\CarCouto.API.csproj", "{A7318526-BA0C-43AA-942F-4274EED3F64F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCouts.Dominio", "src\CarCouts.Dominio\CarCouts.Dominio.csproj", "{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCouts.Dominio", "src\CarCouts.Dominio\CarCouts.Dominio.csproj", "{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCouts.OrientacaoObjeto", "src\CarCouts.OrientacaoObjeto\CarCouts.OrientacaoObjeto.csproj", "{59574C4D-7A05-467F-956F-6636CE83663A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCouts.ConsoleUI", "src\CarCouts.ConsoleUI\CarCouts.ConsoleUI.csproj", "{26CF3ABC-F12B-4C5F-8F16-D40E56341329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{96450564-549B-431D-923C-48BE6C90CBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrientacaoObjeto", "OrientacaoObjeto", "{7080F2D8-85F5-41F5-BDC4-1503B16A0ED6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,23 @@ Global
 		{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59574C4D-7A05-467F-956F-6636CE83663A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59574C4D-7A05-467F-956F-6636CE83663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59574C4D-7A05-467F-956F-6636CE83663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59574C4D-7A05-467F-956F-6636CE83663A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CF3ABC-F12B-4C5F-8F16-D40E56341329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CF3ABC-F12B-4C5F-8F16-D40E56341329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CF3ABC-F12B-4C5F-8F16-D40E56341329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CF3ABC-F12B-4C5F-8F16-D40E56341329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7318526-BA0C-43AA-942F-4274EED3F64F} = {96450564-549B-431D-923C-48BE6C90CBD8}
+		{FD34F768-6C45-4AB8-8BCB-AB2176E75AEB} = {96450564-549B-431D-923C-48BE6C90CBD8}
+		{59574C4D-7A05-467F-956F-6636CE83663A} = {7080F2D8-85F5-41F5-BDC4-1503B16A0ED6}
+		{26CF3ABC-F12B-4C5F-8F16-D40E56341329} = {7080F2D8-85F5-41F5-BDC4-1503B16A0ED6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5390AF0B-0E65-435E-94FB-DA02E94AB96B}
