@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CarCouts.OrientacaoObjeto.Heranca;
+using CarCouts.OrientacaoObjeto.Heranca.EX01;
 
 Console.WriteLine("-------------------------------------------");
 Console.WriteLine("Veiculos");
@@ -19,6 +20,24 @@ Console.WriteLine("-------------------------------------------");
 
 // ** Superação **
 // ** Sabendo que, as ações de cada produto são diferentes, crie um método que seja sobrescrito nas classes filhas.
+
+Produto aromatizador = new Aromatizador()
+{
+    Descricao = "Aromatizador de veiculo",
+    Marca = "Cheiro Bom",
+    TipoProduto = "Aromatizador",
+    Utilidade = "Deixar um cheiro bom"
+};
+Produto som = new Som()
+{
+    Descricao = "Fazer um som para o carro",
+    Marca = "Buster",
+    TipoProduto = "Som",
+    Utilidade = "Peso"
+};
+
+aromatizador.AcaoProduto();
+som.AcaoProduto();
 
 
 Console.ReadLine();
