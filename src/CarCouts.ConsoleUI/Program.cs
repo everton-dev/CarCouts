@@ -40,18 +40,32 @@ using CarCouts.OrientacaoObjeto.Heranca.EX01;
 //aromatizador.AcaoProduto();
 //som.AcaoProduto();
 
-var pagamento = new Pagamento(2000, "Pix");
-Console.WriteLine(pagamento.ToString());
+//var pagamento = new Pagamento(2000, "Pix");
+//Console.WriteLine(pagamento.ToString());
 
-pagamento.AlterarFormaDePagamento("Cartão de Crédito");
-Console.WriteLine(pagamento.ToString());
+//pagamento.AlterarFormaDePagamento("Cartão de Crédito");
+//Console.WriteLine(pagamento.ToString());
 
-pagamento.AlterarValorTotal(2850.90M);
-Console.WriteLine(pagamento.ToString());
+//pagamento.AlterarValorTotal(2850.90M);
+//Console.WriteLine(pagamento.ToString());
 
-pagamento.AlterarFormaDePagamento("Débito");
-Console.WriteLine(pagamento.ToString());
+//pagamento.AlterarFormaDePagamento("Débito");
+//Console.WriteLine(pagamento.ToString());
 
-pagamento.EfetuarPagamento();
+//pagamento.EfetuarPagamento();
+
+//--------------------------------------------------------------------------------------------------
+//Trabalhando o conceito de Orientação a Objeto: Abstração, Herança, Encapsulamento e Polimorfismo
+// Modelar com orientação a objeto o modulo de vendas.
+// Ex. Loja de Conveniencia: Vender produtos
+// Sabemos que: Em uma venda há um numero unico da venda, o cliente que está comprando, os itens dessa venda (produtos) devem conter: valor unitário, quantidade e total,
+// e a venda deve conter: forma de pagamento, data e hora da venda e data, hora do pagamento e o Total da venda.
+
+// ** Superação **
+// ** Aplicar todos os conceitos de orientação a objeto, todas as classes do módulo de venda devem ter as suas propriedades com "private set", e a iniciação desses
+// métodos devem ser feitas pelo construtor e acessados por métodos especificos.
+//Dica: https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264
+
+
 
 Console.ReadLine();
